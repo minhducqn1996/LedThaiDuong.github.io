@@ -1,0 +1,79 @@
+@font-face{
+    font-family: 'OpenSans Regular';
+    src: url('../fonts/open-sans-regular.ttf');
+}
+@font-face{
+    font-family: 'Opensans Semibold';
+    src: url('../fonts/open-sans-semibold.ttf');
+}
+.header-top{
+    background-image: url('../image/bg-top.png');
+    background-repeat: round;
+}
+.title-header{
+    display: flex;
+}
+.header-top h4{
+    margin: 0;
+    font-family: 'OpenSans Regular';
+    padding: 15px 0;
+    font-size: 13px;
+    color: white;
+    width: 70%;
+}
+.header-top .social-netwrork{
+    width: 30%;
+    padding-top: 10px ;
+    padding-left: 150px;
+}
+.header-top .social-netwrork i{
+    color: #83dc36;
+    margin-right: 10px;
+}
+.input-group .form-control:last-child, 
+.input-group-addon:last-child, 
+.input-group-btn:first-child>.btn-group:not(:first-child)>.btn, 
+.input-group-btn:first-child>.btn:not(:first-child), 
+.input-group-btn:last-child>.btn, 
+.input-group-btn:last-child>.btn-group>.btn, 
+.input-group-btn:last-child>.dropdown-toggle{
+    background: #83dc36;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.navbar-form .input-group {
+    width: 200%;
+}
+.navbar-form .input-group>.form-control {
+    width: 105%;
+    border-radius: 16px;
+    border: 1px solid #83dc36;
+}
+.btn-default{
+    border-radius: 16px;
+}
+.tl{
+    font-family: 'Opensans Semibold';
+    font-size: 14px;
+}
+.header-bottom{
+    margin-top: 20px;
+}
+.gmail{
+    font-family: 'Opensans Semibold';
+    font-size: 14px;
+}
+.tl::before{
+    content: "\f095";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #83dc36;
+    margin-right: 10px;
+}
+.gmail::before{
+    content: "\f0e0";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #83dc36;
+    margin-right: 10px;
+}

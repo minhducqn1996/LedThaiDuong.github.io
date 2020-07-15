@@ -1,0 +1,17 @@
+@media(max-width: 767px){
+    .navbar-form .input-group {
+        width: 40%;
+    }
+    .nav-tabs>li{
+        float: none !important;
+    }
+    .Chandeliers-product .title .nav-tabs {
+        margin-left: 89px;
+    }
+    .ft-menu ul{
+        display: block;
+    }
+    .img-2{
+        left: 233px;
+    }
+}

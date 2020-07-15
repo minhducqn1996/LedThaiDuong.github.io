@@ -1,0 +1,94 @@
+@font-face{
+    font-family: 'OpenSans Bold';
+    src: url('../fonts/OpenSans-Bold.ttf');
+}
+.ft-top{
+    background-image: url('../image/footer.png');
+    padding: 20px 0;
+    height: 500px;
+    background-repeat: round;
+}
+.ft-menu{
+    margin-bottom: 35px;
+}
+.ft-menu  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: 201px;
+}
+.ft-menu  ul li a{
+    text-decoration: none;
+    font-family: 'OpenSans Bold';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    margin-right: 32px;
+}
+iframe{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.intro h4{
+    color: white;
+    font-family: 'Opensans Semibold';
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.intro span{
+    font-family: 'OpenSans Regular';
+    font-size: 14px;
+    color: white;
+}
+.policy  span{
+    color: white;
+    font-family: 'Opensans Semibold';
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.policy ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.policy ul li a{
+    font-family: 'OpenSans Regular';
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+.policy ul li a::before{
+    content: "\f111";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: white;
+    margin-right: 5px;
+    font-size: 5px;
+}
+.fanpage span{
+    color: white;
+    font-family: 'Opensans Semibold';
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.intro-contact span{
+    color: white;
+    font-family: 'Opensans Semibold';
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.ft-bottom{
+    background-color: #111111;
+    padding: 13px 100px;
+}
+.ft-bottom .design{
+    float: right;
+    color: white;
+    font-size: 13px;
+}
+.ft-bottom .copyright{
+    color: white;
+    font-size: 13px;
+}

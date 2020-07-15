@@ -1,0 +1,345 @@
+.content-main {
+    margin-bottom: 10px;
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    display: block;
+    
+}
+.content-main .col-md-3{
+    border-right: 1px solid #ededed;
+    padding: 20px 20px;
+    text-align: center;
+}
+.content-main .work{
+    border-right: 0px !important;
+}
+.product-sb ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.product-sb ul li{
+    display: flex;
+    border-top: 1px solid #ededed;
+}
+.product-sb ul li a{
+    text-decoration: none;
+}
+.product-sb ul li a span{
+    color: black;
+}
+.detail{
+    padding-left: 10px;
+}
+.sidebar-top .btn-info,
+.sidebar-bottom .btn-info{
+    color: #fff;
+    background-color: #83dc36 !important;
+    border-color: #83dc36  !important;
+    padding: 4px 12px  !important;
+    font-size: 11px  !important;
+    border-radius: 20px !important;
+}
+.product-4 img{
+    margin-top: 30px;
+}
+.product-1 img{
+    margin: 5px 0 10px 15px;
+}
+.product-1 .detail{
+    padding-left: 32px;
+}
+.product-2{
+    padding: 20px 0;
+}
+.product-3{
+    padding: 20px 0;
+}
+.product-4{
+    padding: 20px 0;
+}
+.product-5{
+    padding: 20px 0;
+}
+.product-6{
+    padding: 20px 0;
+}
+.product-6 img{
+    margin: 16px 0 0 0;
+}
+.product-7{
+    padding: 20px 0;
+}
+.product-7 img{
+    margin: 10px 0 10px 0px;
+}
+.product-8{
+    padding: 20px 0;
+}
+.product-8 img{
+    margin: 9px 0 10px 12px;
+}
+.news ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.news ul li a{
+    text-decoration: none;
+    display: flex;
+    padding: 8px;
+    border-top: 1px solid #ededed;
+}
+.news ul li a span{
+    font-family: 'Opensans Semibold';
+    font-size: 12px; 
+    color: black; 
+    padding-left: 15px;  
+}
+.news{
+    border: 1px solid #ededed;
+    border-bottom: 3px solid #ededed;
+}
+.news .news-title{
+    font-family: 'Opensans Semibold';
+    font-size: 16px;
+    color: #7e8285;
+    text-transform: uppercase;
+    display: block;
+    padding: 20px 0 20px 40px;
+}
+.sidebar-bottom{
+    border: 1px solid #ededed;
+    border-bottom: 3px solid #ededed;
+    margin-bottom: 20px;
+}
+.sidebar-bottom .product-sb ul li{
+    border-top: 1px solid #ededed;
+}
+.sidebar-bottom h3{
+    font-family: 'Opensans Semibold';
+    font-size: 16px;
+    color: #7e8285;
+    text-transform: uppercase;
+    padding: 10px 0 20px 50px;
+}
+.sidebar-top{
+    border: 1px solid #ededed;
+    border-bottom: 3px solid #ededed;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.sidebar-top h3{
+    font-family: 'Opensans Semibold';
+    font-size: 16px;
+    color: #7e8285;
+    text-transform: uppercase;
+    padding: 10px 0 20px 32px;
+}
+.fa-circle{
+    color: #83dc36;
+    font-size: 10px;
+    margin-right: 15px;
+}
+.main-product .btn-info,
+.Chandeliers-product .btn-info,
+.discount-product .btn-info,
+.ceiling-product .btn-info{
+    color: #83dc36 !important;
+    background-color: white !important;
+    border-color: #83dc36 !important;
+    padding: 5px 26px !important;
+    border-radius: 22px !important;
+    text-transform: uppercase;
+}
+.main-product  .name-sp,
+.discount-product  .name-sp,
+.Chandeliers-product  .name-sp,
+.ceiling-product  .name-sp{
+    font-family: 'OpenSans Regular';
+    color: #83dc36;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.main-product  .code,
+.discount-product .code,
+.Chandeliers-product  .code,
+.ceiling-product  .code{
+    font-family: 'OpenSans Regular';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+    margin: 14px 0;
+    display: block;
+}
+.main-product  .row,
+.discount-product  .row,
+.Chandeliers-product  .row,
+.ceiling-product  .row{
+    padding: 15px 10px;
+}
+ .main-product .title-top ul,
+.discount-product .title-top ul,
+.Chandeliers-product .title-top ul,
+.ceiling-product .title-top ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    padding: 15px 20px;
+}
+.main-product .title-top ul li a,
+.discount-product .title-top ul li a,
+.Chandeliers-product .title-top ul li a,
+.ceiling-product .title-top ul li a{
+    text-decoration: none;
+    font-family: 'Opensans Semibold';
+    font-size: 16px;
+    color: black;
+    line-height: 40px;
+    display: block;
+    text-transform: uppercase;
+    padding: 2px 18px;
+}
+.main-product .btn-info:hover,
+.main-product .title-top ul li a:hover,
+.discount-product .btn-info:hover,
+.discount-product .title-top ul li a:hover,
+.Chandeliers-product .btn-info:hover,
+.Chandeliers-product .title-top ul li a:hover,
+.ceiling-product .btn-info:hover,
+.ceiling-product .title-top ul li a:hover{
+    background: #83dc36 !important;
+    color: white  !important;
+}
+.main-product .col-md-3,
+.discount-product .col-md-3,
+.Chandeliers-product .col-md-3,
+.ceiling-product .col-md-3{
+    padding: 10px 10px;
+}
+.main-product .container-main,
+.discount-product .container-main,
+.Chandeliers-product .container-main,
+.ceiling-product .container-main{
+    padding: 10px 10px;
+}
+.main-product .container-main:hover,
+.discount-product .container-main:hover,
+.Chandeliers-product .container-main:hover,
+.ceiling-product .container-main:hover{
+    border: 2px solid #ededed;
+}
+.main-product,
+.discount-product,
+.Chandeliers-product,
+.ceiling-product{
+    border: 1px solid #ededed;
+    border-bottom: 3px solid #ededed;
+    margin-bottom: 30px;
+}
+.main-product .show-sp,
+.discount-product .show-sp,
+.Chandeliers-product .show-sp,
+.ceiling-product .show-sp{
+    border-top: 1px solid #ededed;
+}
+.main-product .infor,
+.discount-product .infor,
+.Chandeliers-product .infor,
+.ceiling-product .infor{
+    text-align: center;
+}
+.discount-product h2{
+    font-family: 'Opensans Semibold';
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #83dc36;
+    margin: 20px 0 20px 56px;
+}
+.nav{
+    padding: 20px 10px !important;
+}
+.title{
+    border-bottom: 1px solid #ddd;
+    display: flex;
+}
+.title h1,
+.title h3{
+    font-family: 'Opensans Semibold';
+    font-size: 16px;
+    color: #83dc36;
+    text-transform: uppercase;
+    padding: 7px 0;
+    margin-left: 60px;
+}
+.title .nav-tabs li a{
+    border-radius: 10px;
+    font-family: 'Opensans Semibold';
+    font-size: 13px;
+    color: black;
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
+.Chandeliers-product .title .nav-tabs{
+    margin-left: 350px;
+    border-bottom: 0px !important;
+}
+.ceiling-product .title .nav-tabs{
+    margin-left: 100px;
+    border-bottom: 0px !important;
+}
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover {
+    color: white  !important;
+    background-color: #83dc36 !important;
+}
+.nav-tabs li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Opensans Semibold';
+}
+.carousel-title{
+    margin-left: 40px;
+}
+.img-1{
+    position: relative;
+}
+.img-2{
+    position: absolute;
+    z-index: 3;
+    left: 187px;
+    top: 2px;
+}
+.up{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background-color: #0000005c;
+    bottom: 0;
+    text-align: center;
+}
+.up span{
+    text-transform: uppercase;
+    color: whitesmoke;
+    line-height: 34px;
+    font-size: 21px;
+}
+.hot{
+    position: relative;
+}
+.hot .icon{
+    width: 48px;
+    height: 24px;
+    background-color: #83dc36;
+    position: absolute;
+    color: whitesmoke;
+    text-align: center;
+    top: 4px;
+    left: 121px;
+    padding-top: 2px;
+}
